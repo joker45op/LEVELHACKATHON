@@ -1,0 +1,19 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+  
+.hero-section .content {
+    position: relative;
+    z-index: 2;
+}
+  
+.hero-section img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+.app {
+  position: relative;
+}
+
+.component-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.component {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  color: white;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Control visibility of components */
+.show-one .component {
+  opacity: 1;
+}
+
+.show-two .component {
+  opacity: 0;
+}
+
+.show-two .component {
+  opacity: 0;
+}
+
+.show-one .component {
+  opacity: 1;
+}
